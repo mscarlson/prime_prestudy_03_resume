@@ -1,0 +1,157 @@
+html,body,h1,h2,h3,p,ol,ul,li,a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+section,article,aside,footer,address,header,nav,hgroup {
+    display: block;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+body {
+    font-family: 'PT Sans',sans-serif;
+    width: 800px;
+    margin: 100px auto;
+    color: #C83636;
+    background: rgba(200,54,54,0.1);
+}
+
+
+
+button {
+    padding: 0;
+    margin: 0 0 0 0;
+    background: transparent;
+    border: none;
+    
+    
+}
+
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+@font-face {
+    font-family: 'ptsans';
+    src: url(ptsans-webfont.eot);
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font: 32px 'PT Sans',sans-serif;
+    color: #C83636;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 50px 0 10px;
+}
+
+h2 {
+    font: 24px 'PT Sans',sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font: 20px 'PT Sans',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font: 20px 'PT Sans',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+p {
+    font: 20px 'PT Sans',sans-serif;
+    font-style: italic;
+    padding: 0 0 20px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+h2,h3 {
+    display: inline;
+    font-style: normal;
+}
+
+header {
+    display: block;
+}
+
+header h1 {
+    font: 32px 'PT Sans',sans-serif;
+    color: #C83636;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 20px 0 0;
+    line-height: 1.5;
+}
+
+header {
+    font: 26px 'PT Sans',sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0 0 20px;
+    border-bottom: 20px solid #C83636;
+    margin: 0 0 20px;
+}
+
+address h1 {
+    font: 24px 'PT Sans',sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    font: 24px 'PT Sans',sans-serif;
+    color: #C83636;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C83636;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font: 20px 'PT Sans',sans-serif;
+}
+
+time {
+    float: left;
+    width: 100%;
+    font: 20px 'PT Sans',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+span {
+    float: right;
+    width: 48%;
+}
+
+footer {
+    font: 20px 'PT Sans',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 40px 0 0;
+}
